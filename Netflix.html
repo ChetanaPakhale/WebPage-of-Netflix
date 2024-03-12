@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+            color: white;
+        }
+        main section #body{
+            height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./Netflixlandingpage.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        main section div nav img{
+            height: 120px;
+            width: 200px;
+            margin:20px 20px 0 20px ;
+        }
+        main section div nav select.btn{
+            height: 30px;
+            width: 100px;
+            margin:  58px 20px 0 1100px;
+            color:white;
+            font-size: 20px;
+            background-color: black;
+            border-radius: 10%;
+       }
+        main section div nav #btn2{
+            height: 30px;
+            width: 100px;
+            background-color: red;
+            margin: 10px 20px 0 0 ;
+            font-size: 15px;
+        }
+        .header{
+            text-align: center;
+            font-size: 70px ;
+            margin: 190px auto 20px;
+            color: white;
+            justify-content: center;
+        }
+        .header1{
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-size: 40px;
+            margin-top: 20px;
+        }
+        p{
+            text-align: center;
+            margin-top: 40px;
+            font-size: 30px;
+        }
+        .sign{
+            text-align: center;
+        }
+        #inp1{
+            height: 50px;
+            width: 300px;
+            padding: 20px;
+            margin: 20px;
+            columns: black;
+            background-color: white;
+            border-color: grey;
+            border-radius: 4px;
+        }
+        main section div nav header form #headbtn{
+            background-color: red;
+            height: 60px;
+            width: 120px;
+            color: white;
+            border-radius: 4px;
+        }
+        .contanier{
+            display: block;
+            padding: 50px;
+            font-size: 30px;
+            margin: 300px 10px ;
+            color: white;
+            align-items: left;
+        }
+        #container1{
+            text-align: left;
+        
+        }
+        #container2{
+            text-align: left;
+        }
+        .img{
+            display: block;
+            margin-top: -300px;
+            height: 400px;
+            width: 500px;
+            margin-left: 800px;
+            align-items: left;
+        }
+ </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div id="body">
+                <nav>
+                    <img src="./Netflix-logo.png " alt="no image">
+                    <select name="" id="" class="btn">
+                        <option value="">English</option>
+                        <option value="">Hindi</option>
+                    </select>
+                    <button type="button" onclick="alert('sign In')" id="btn2" class="btn">Sign In</button>
+                    <header>
+                        <h1 class="header" ><b>Laughter.Tears.Thrills.Find it all on Netflix.</b></h1>
+                        <h5 class="header1">Endless entertainment starts at just 149. Cancle anytime</h5>
+                        <p> Ready to Watch? Enter your Enail create or resatrt your membership</p>
+                        <form action="" class="sign">
+                            <input id="inp1" placeholder="Email Address" type="text">
+                            <button id="headbtn" type="submit"><b>Get Started</b></button>
+
+                        </form>
+                    </header>
+                </nav>
+            </div>
+            <div class="contanier" id="contanier1">
+                <h1>Enjoy your Tv</h1>
+                <h5>Match on Smart TVs ,palysation Xbox,chromoecast<br>
+                 Apple TV ,Blu-ray Players and more.</h5>
+                 <img class="img"id="tv" src="./NETFLIX2.jpg" alt="">
+             </div>
+             <div class="contanier" id="contanier2">
+                <h1>Download your shows to watch offline</h1>
+                <h5>Save your favourates easily and always have something to watch .</h5>
+                <img  class="img"  src="./Netflix-4.png" alt="">
+                
+             </div>
+        </section>
+    </main>
+</body>
+</html>
